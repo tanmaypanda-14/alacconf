@@ -2,7 +2,7 @@
 alacritty config with patched nerdfonts (looks better than ur average riced i3)
 
 
-![alt text](https://github.com/uneconomicalfairy14/alacconf/blob/master/assets/alacconf.PNG?raw=true)
+![alt text](https://github.com/uneconomicalfairy14/alacconf/blob/master/assets/alacconf.png?raw=true)
 
 # Installation
 - download the portable alacritty release from alacritties official github page
