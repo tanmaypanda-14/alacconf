@@ -1,5 +1,5 @@
 # alacconf
-alacritty config with patched nerdfonts (looks better than ur average riced i3)
+alacritty config with patched nerdfonts 
 
 
 ![alt text](https://github.com/uneconomicalfairy14/alacconf/blob/master/assets/alacconf.png?raw=true)
