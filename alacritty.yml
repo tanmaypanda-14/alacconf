@@ -16,7 +16,7 @@ scrolling:
   history: 10000
   multiplier: 3
 shell:
-  program: powershell
+  program: pwsh.exe
   args:
     - '-nologo'
 font:
@@ -34,43 +34,50 @@ cursor:
     blinking: 'Off'
 working_directory: C:\Users\admin
 colors:
-  name: Sex Colors
-  author: ''
   primary:
-    background: '0x1D1F28'
-    foreground: '0xFDFDFD'
-    dim_foreground: '#dbdbdb'
-    bright_foreground: '#d9d9d9'
-    dim_background: '#202020'
-    bright_background: '#3a3a3a'
+    background: '#2e3440'
+    foreground: '#d8dee9'
+    dim_foreground: '#a5abb6'
   cursor:
-    text: '#000000'
-    cursor: '#ffffff'
+    text: '#2e3440'
+    cursor: '#d8dee9'
+  vi_mode_cursor:
+    text: '#2e3440'
+    cursor: '#d8dee9'
+  selection:
+    text: CellForeground
+    background: '#4c566a'
+  search:
+    matches:
+      foreground: CellBackground
+      background: '#88c0d0'
+    bar:
+      background: '#434c5e'
+      foreground: '#d8dee9'
   normal:
-    black: '0x282A36'
-    red: '0xF37F97'
-    green: '0x5ADECD'
-    yellow: '0xF2A272'
-    blue: '0x8897F4'
-    magenta: '0xC574DD'
-    cyan: '0x79E6F3'
-    white: '0xFDFDFD'
+    black: '#3b4252'
+    red: '#bf616a'
+    green: '#a3be8c'
+    yellow: '#ebcb8b'
+    blue: '#81a1c1'
+    magenta: '#b48ead'
+    cyan: '#88c0d0'
+    white: '#e5e9f0'
   bright:
-    black: '0x414458'
-    red: '0xFF4971'
-    green: '0x18E3C8'
-    yellow: '0xEBCB8B'
-    blue: '0xFF8037'
-    magenta: '0x556FFF'
-    cyan: '0x3FDCEE'
-    white: '0xBEBEC1'
+    black: '#4c566a'
+    red: '#bf616a'
+    green: '#a3be8c'
+    yellow: '#ebcb8b'
+    blue: '#81a1c1'
+    magenta: '#b48ead'
+    cyan: '#8fbcbb'
+    white: '#eceff4'
   dim:
-    black: '#232323'
-    red: '#74423f'
-    green: '#5e6547'
-    yellow: '#8b7653'
-    blue: '#556b79'
-    magenta: '#6e4962'
-    cyan: '#5c8482'
-    white: '#828282'
-  indexed_colors: []
+    black: '#373e4d'
+    red: '#94545d'
+    green: '#809575'
+    yellow: '#b29e75'
+    blue: '#68809a'
+    magenta: '#8c738c'
+    cyan: '#6d96a5'
+    white: '#aeb3bb'
