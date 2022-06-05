@@ -3,15 +3,16 @@ env:
 window:
   dimensions:
     columns: 122
-    lines: 34
+    lines: 32
   position:
     x: 6
-    'y': 6
+    'y': 10
   padding:
     x: 6
     'y': 6
   decorations: none
   startup_mode: Windowed
+  opacity: 0.8
 scrolling:
   history: 10000
   multiplier: 3
@@ -21,10 +22,10 @@ shell:
     - '-nologo'
 font:
   normal:
-    family: Hack NF
+    family: Liga SFMono Nerd Font
     style: Regular
   size: 14
-background_opacity: 0.8
+  
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
   save_to_clipboard: true
